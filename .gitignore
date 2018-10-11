@@ -74,3 +74,6 @@ typings/
 
 # setting files
 .vscode
+
+# build directories
+dist/
