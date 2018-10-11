@@ -83,10 +83,7 @@ In order to run locally on can simply execute `npm start serve`. This will run a
 In order to write tests for your service, just write your tests on the `test` folder.
 This sample service writes is tests using JavaScript's [jest.js](https://jestjs.io/) package.
 
-As with the `src` folder, the structure within `test` is of no importance, with only two restrictions:
-
-1. Don't touch the `preprocessor.js` file declared at the first level. (This does all the magic so your tests actually run)
-2. Test files should be declared as `<filename>.test.ts`
+As with the `src` folder, the structure within `test` is of no importance, as long as test files are declared as `<filename>.test.ts`
 
 Example tree structure:
 
@@ -95,9 +92,8 @@ test
 |-messages
 | |-MessageActions.test.ts
 | `-Reactions.test.ts
-|-users
-| `User.test.ts
-`preprocessor.js
+`-users
+  `User.test.ts
 ```
 
 #### Test Running
