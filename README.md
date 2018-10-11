@@ -2,6 +2,8 @@
 
 Serves as a boilerplate for starting a new [Express.js](https://expressjs.com/) service that is written in [Typescript](https://www.typescriptlang.org/).
 
+If you wish to see a much more robust and complete boilerplate, take a look at [w3tecch express-typescript boilerplate](https://github.com/w3tecch/express-typescript-boilerplate). Part of this boilerplate structure is inspired in that repo.
+
 ## Requirements
 
 ### For developing
